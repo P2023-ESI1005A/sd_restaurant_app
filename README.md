@@ -1,3 +1,3 @@
 # Hello there
 
-Chequen las guidelines de [PEP-8](git@github.com:gustavoSo3/sd_restaurant_app.git)
+Chequen las guidelines de [PEP-8](https://www.geeksforgeeks.org/pep-8-coding-style-guide-python/)
