@@ -4,15 +4,15 @@ from comanda.comanda import Comanda
 class Pago(Comanda):
     def _init_(self, total):
         super.__init__(total)
-        self.paid = 0
+        self.paid: float = 0
 
-    def efectivo(self, amount):
+    def efectivo(self, amount: float):
         self.paid += amount
 
-    def tarjeta(self, amount):
+    def tarjeta(self, amount: float):
         self.paid += amount
 
-    def transferencia(self, amount):
+    def transferencia(self, amount: float):
         self.paid += amount
 
     def comprobar(self):
