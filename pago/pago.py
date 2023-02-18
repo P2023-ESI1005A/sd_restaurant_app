@@ -21,4 +21,4 @@ class Pago(Comanda):
         elif self.paid < self.total:
             return f"Pago pendiente: {self.total - self.paid} por pagar"
         else:
-            return f"Pago excedido: {self.paid - self.total} reembolsado"
+            return f"Pago excedido: {self.paid - self.total} reembolsado"
